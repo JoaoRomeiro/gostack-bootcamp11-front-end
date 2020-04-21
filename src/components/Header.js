@@ -1,0 +1,11 @@
+import React from 'react';
+import { render } from 'react-dom';
+
+//export default function Header(props) {
+export default function Header({ title }) {
+  return (
+    <header>
+      <h1>{title}</h1>
+    </header>
+  );
+}
